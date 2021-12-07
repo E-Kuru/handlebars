@@ -1,0 +1,15 @@
+<form method="post" action="/house">
+  <input
+    type="text"
+    {{!-- attribut name obligatoire pour y acceder dans req.body --}}
+    name="mail"
+  />
+
+  <input
+    type="password"
+    {{!-- attribut name obligatoire pour y acceder dans req.body --}}
+    name="password"
+  />
+
+  <button type="submit">Submit</button>
+</form>
